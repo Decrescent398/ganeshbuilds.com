@@ -2,7 +2,7 @@
 </script>
 
 <svelte:head>
-	<title>About - Evan Gan</title>
+	<title>About - Ganesh</title>
 </svelte:head>
 
 <main>
@@ -13,18 +13,15 @@
 
 		<div class="content">
 			<div class="photo-container">
-				<img src="/photo of me.jpg" alt="Evan Gan" class="profile-photo" />
-				<div class="easter-egg">
-									<p>
-					Look to the left of me in this photo- that's a guillotine I built! Check out more info
-					about it on <a href="/projects" style="color: rgb(176, 135, 255) !important;">my projects page</a>.
-				</p>
-				</div>
+				<img src="/photo of me.jpg" alt="Ganesh" class="profile-photo" />
 			</div>
 			
 			<div class="text-section">
 				<p>
-					Hey, I'm Evan. I love building robots with my FIRST team, programming, and creating fun projects ranging from electronics to wood working. I also enjoy running hackathons for teens and collaborating with people to bring ambitious ideas to life.
+					Hi! I'm Ganesh, a high schooler from Bangalore, India. I love anything deep tech, programming and rocketry.
+				</p>
+				<p>
+					I love beaches, HackClub and hanging out with my friends.
 				</p>
 				<p>
 					Check out what I've done and what I'm up to on my <a href="/projects" style="color: rgb(176, 135, 255) !important;">projects page</a>.
@@ -87,50 +84,6 @@
 	.profile-photo:hover {
 		transform: translate(-2px, -2px);
 		box-shadow: 6px 6px 0px #000000;
-	}
-
-	.easter-egg {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: rgba(255, 208, 116, 0.98);
-		border: 3px solid #000000;
-		box-shadow: 4px 4px 0px #000000;
-		padding: 24px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		opacity: 0;
-		pointer-events: none;
-		transition: opacity 0.3s ease;
-	}
-
-	.easter-egg p {
-		text-align: left;
-		font-weight: 600;
-		font-size: 0.95rem;
-		line-height: 1.6;
-		margin: 0;
-		color: #000000;
-	}
-
-	.photo-container:hover .easter-egg {
-		opacity: 1;
-		pointer-events: auto;
-	}
-
-	.easter-egg a {
-		color: #000000;
-		text-decoration: underline;
-		text-underline-offset: 2px;
-		font-weight: 700;
-		transition: color 0.2s ease;
-	}
-
-	.easter-egg a:hover {
-		color: rgba(176, 135, 255, 1);
 	}
 
 	.text-section {

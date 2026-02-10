@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Evan Gan</title>
+	<title>Ganesh</title>
 </svelte:head>
 
 <main>

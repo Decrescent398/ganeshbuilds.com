@@ -1,4 +1,4 @@
-# evangan.com
+# ganeshbuilds.com
 
 Hey there! This is my personal portfolio website built with SvelteKit and deployed as a static site.
 

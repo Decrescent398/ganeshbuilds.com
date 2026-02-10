@@ -220,14 +220,14 @@
 <svelte:window onkeydown={handleWindowKeydown} />
 
 <svelte:head>
-	<title>Projects - Evan Gan</title>
+	<title>Projects - Ganesh</title>
 </svelte:head>
 
 	<main>
 		<div class="container">
 			<header class="page-header">
 				<h1>My Projects</h1>
-				<p>A collection of things I've built and worked on</p>
+				<p>Here's some of the things I've built, and had fun being part of</p>
 			</header>
 
 			<!-- Category Filter Slider -->

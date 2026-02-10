@@ -1,342 +1,198 @@
 tagOrder:
   - Highlights
   - All Projects
-  - Hackathons
-  - Robotics
+  - Research
+  - Experience
   - Programming
   - Builds
+  - Internship
+  - Volunteering
 projects:
-  - date: Sep 27, 2025
-    name: Daydream Hackathon
-    tagline: >-
-      Organized and ran a 12-hour hackathon at the Microsoft NERD Center with 60
-      teen attendees. (Fourth hackathon organized)
+  - date: Oct - Dec 2025
+    name: Axiom
+    tagline: Organised a math and science based You Ship We Ship program at HackClub
     description: >-
-      I organized a 60-person Boston Daydream Hackathon, part of a global series
-      with 100 simultaneous events. I led a team of organizers and secured a
-      donated venue at the Microsoft NERD center in Cambridge, MA. Additionally
-      I handled teacher and student outreach to recruit attendees. To help train
-      the next generation of organizers, I made the planning process open
-      encouraging more teens to contribute, with the goal of enabling teens to
-      run future events after I graduate high school.
-    thumbnail: /thumbnails/1759492393466-webp.webp
-    websiteURL: https://daydream.hackclub.com/boston
+      Got $15k in funding, had one of the highest submission rates for a
+      Hackclub YSWS and 300+ participants
+    thumbnail: /thumbnails/ax.png
     categories:
-      - Hackathons
-  - date: Sep-Oct, 2025
-    name: Personal Website
-    tagline: This site! Built from the ground up in SvelteKit.
-    description: >-
-      The site you're looking at is built in SvelteKit, a lightweight web
-      framework. I chose Svelte because I wanted to improve my skills with it
-      and create something unique. I also wanted more flexibility to customize
-      my site and so I could store all my projects in a single file, which I
-      could later reuse.
-
-
-      All of the projects you see in this gallery are stored in a “Yet Another
-      Markup Language” (YAML) file, a human-editable text format that machines
-      can also read. I built an editor around this file, so in development mode,
-      I can manage projects through an intuitive and easy-to-use interface. You
-      can check out the editor by visiting the linked GitHub repo and following
-      the setup instructions.
-
-
-      When I was testing out my site for speed with a simulated slow network, I
-      found that it took over 20 seconds to load some of the images. I then made
-      an automation to solve this which will automatically compress my images
-      with Image Magick (a command line tool for manipulating images) by a
-      factor of 10-20x without significant quality compromise.
-    thumbnail: /thumbnails/1760028884932-webp.webp
-    categories:
-      - Programming
-    websiteURL: evangan.com
-    githubURL: github.com/evan-gan/evangan.com
-  - date: Aug 8-11, 2025
-    name: Shipwrecked
-    tagline: >-
-      Conceived and led a 120-person hackathon; secured $130K funding, managed
-      logistics, recruited participants, and coordinated all event operations.
-      (Third hackathon organized)
-    description: >-
-      I once had the wild idea of running a hackathon on an island. A year
-      later, I spent the entire summer at [Hack Club](https://hackclub.com)
-      bringing that idea to life by organizing a four-day hackathon at the
-      Cathleen Stone Outward Bound School on Thompson Island in Boston Harbor. I
-      helped coordinate the event for 120 participants, securing $130K in
-      funding, handling logistics, recruiting attendees, and keeping everything
-      running smoothly while learning a lot about teamwork, planning, and what
-      it takes to turn an ambitious idea into reality.
-    thumbnail: /thumbnails/ShipwreckedGroupPhoto-webp.webp
-    websiteURL: https://shipwrecked.hackclub.com
-    categories:
-      - Hackathons
+      - Experience
       - Highlights
-    videoURL: https://www.youtube.com/watch?v=uXWMr0gdLJA
-  - date: Mar 15, 2025
-    name: Scrapyard Hackathon
-    tagline: >-
-      Organized and ran a 12-hour hackathon at the Microsoft NERD Center with 60
-      teen attendees. (Second hackathon organized)
-    description: >-
-      I organized a 60-person Boston Scrapyard Hackathon, part of a global
-      series with 75 simultaneous events. I led a team of organizers, raised
-      $1K, and secured a donated venue. I handled teacher and student outreach
-      to recruit attendees. I also took the marketing materials from my previous
-      hackathon project, Counterspell, and made them more generic so they could
-      be easily reused for future hackathons.
-
-
-      After a tedious check-in experience at Counterspell Boston, I decided to
-      build a QR code-based check-in system and send QR codes to attendees in
-      advance. To keep the system flexible, I used Google Sheets as the
-      database, allowing us to manually verify waiver completions and check
-      people in if they couldn't access their QR code.
-    thumbnail: /thumbnails/1760207708262-webp.webp
-    websiteURL: https://scrapyard.hackclub.com/boston
-    categories:
-      - Hackathons
-  - date: Mar 8, 2025
-    name: Polaris student management system
-    tagline: >-
-      Web app built with Next.js to help the Achieve Nonprofit track students
-      and search by date/time windows.
-    description: >-
-      Built at a 1 day Hackathon, Hack the Castle, Polaris is a student
-      management system built to help staff at Achieve quickly locate students
-      and manage schedules more efficiently. Inspired by the difficulty of
-      tracking students across multiple classrooms, Polaris replaces scattered
-      spreadsheets with a centralized dashboard where users can instantly find a
-      student’s current location, view schedules in a clear format, and organize
-      pre-existing data into a standardized schedule using AI-powered data
-      parsing. Built with Next.js, React, and OpenAI’s classification tools, the
-      system dynamically structures and updates student data while maintaining a
-      clean, intuitive interface. 
-    thumbnail: /thumbnails/1760281002150-webp.webp
-    githubURL: https://github.com/ph4iry/polaris
+    websiteURL: https://axiom.hackclub.com/
+  - date: Oct  2025
+    name: Stable Diffusion Clone
+    tagline: stable diffusion from scratch
+    description: Built a barebones stable diffusion clone from the ground up with pyTorch
+    thumbnail: /thumbnails/sd.png
     categories:
       - Programming
-  - date: March, 2025
-    name: QR Code Check-in Web App
-    tagline: 'A flexible, easy to use, QR code check-in app for events. '
+    githubURL: https://github.com/Decrescent398/sd
+  - date: Sep  2025
+    name: Skynet
+    tagline: Skynet is a program designed to track satellites passing overhead
     description: >-
-      After a tedious check-in experience at the first hackathon I ran, I
-      decided to build a QR code-based check-in system and send QR codes to
-      attendees in advance. To keep the system flexible, I used Google Sheets as
-      the database, allowing us to manually verify waiver completions and check
-      people in if they couldn't access their QR code.
-
-
-      I created a website that securely shares credentials for the user-friendly
-      check-in scanner page, so multiple people can help sign attendees in. If
-      someone hasn't completed their forms, the system automatically sends them
-      an email with instructions on how to submit them and what to do afterward.
-      Oh, and did I mention it automatically marks people as present in a
-      human-editable Google Sheet for those inevitable edge cases? The entire
-      project revolves around Google Sheets: once attendee data is added, a
-      mail-merge-style spreadsheet is generated, making it easy to send
-      personalized emails with each attendee's QR code.
-    thumbnail: /thumbnails/placeholder.svg
+      Web app that lets you monitor real time satellite positions of over 12,000
+      objects and much more.
+    thumbnail: /thumbnails/skynet.jpeg
     categories:
       - Programming
-    githubURL: https://github.com/evan-gan/GoogleSheetsQRSignIn
-  - date: Nov 23, 2024
-    name: Counterspell Hackathon
-    tagline: >-
-      Organized and ran a 12-hour hackathon at the Microsoft NERD Center with 60
-      teen attendees. (First hackathon organized)
+    githubURL: https://github.com/Decrescent398/Skynet
+  - date: Aug  2025
+    name: Astrobot
+    tagline: Discord Server Management
     description: >-
-      I organized a 60-person Boston Counterspell Hackathon, part of a global
-      series with 50 simultaneous events. I led a team of organizers and secured
-      a donated venue. I also handled teacher and student outreach to recruit
-      attendees. I helped create several email templates and a variety of
-      outreach materials for the event.
-    thumbnail: /thumbnails/1760207809207-webp.webp
-    websiteURL: https://counterspell.hackclub.com/boston
-    categories:
-      - Hackathons
-  - date: Sep - Nov, 2024
-    name: Pumpkin Smash
-    tagline: >-
-      Built & designed an 8 foot tall guillotine to smash pumpkins at my city's
-      annual pumpkin composting event 
-    description: >-
-      Each year, the LigerBots, my FIRST Robotics team, design and build a
-      pumpkin smasher for Newton's annual Pumpkin Smash composting event. In
-      2024, I proposed, designed (in Onshape), and led the build of an
-      eight-foot-tall guillotine to smash pumpkins for composting. I created the
-      design in Onshape, taught teammates to use woodworking and power tools,
-      and coordinated a team of about twenty students through construction. The
-      guillotine both entertained the community and sped up composting, turning
-      pumpkin waste into soil while showcasing engineering, leadership, and
-      sustainability in action.
-    thumbnail: /thumbnails/1759760697739-webp.webp
-    categories:
-      - Builds
-      - Robotics
-  - date: May 17-19, 2024
-    name: Apocalypse Hackathon Device
-    tagline: >-
-      Peer-to-peer communication device built for an apocalypse-themed
-      hackathon.
-    description: >-
-      The prompt for Apocalypse was to create something to help you survive the
-      zombie apocalypse. We thought that since the internet would be unreliable
-      during the apocalypse, it would be helpful to have devices that allow you
-      to communicate regardless!
-
-
-      Infromedead is a set of devices that can communicate with each other off
-      the grid!
-
-
-      The code runs on ESP32s, and the devices work by each setting up their own
-      WiFi access points. From there, if a device wants to send a message, it
-      simply connects to the access point of the one it's sending to and sends
-      its message via the WiFi.
-
-
-      All the inputs come from the keypads connected to the ESP32s which are set
-      up somewhat like phone keypads, allowing the user to type any letter or
-      number.
-    thumbnail: /thumbnails/1760215838683-webp.webp
-    githubURL: https://github.com/EerierGosling/Informedead
-    categories:
-      - Builds
-  - date: May, 2024
-    name: Maze Generator
-    tagline: >-
-      Recursive TypeScript maze generator for a pen plotter in the Hack Club
-      Blot ecosystem.
-    description: >-
-      This project is a recursive maze generator written in TypeScript for the
-      Hack Club Blot ecosystem, designed to create generative mazes optimized
-      for pen plotting through a custom tool path algorithm I built. The maze
-      generation follows a simple recursive process of breaking walls, marking
-      visited cells, and backtracking when no unvisited paths remain. While the
-      algorithm itself was straightforward, developing the maze structure and
-      optimizing the plotting efficiency proved to be the most rewarding
-      challenge. I taught myself TypeScript and Node.js for this project,
-      building on previous experience with C++, Swift, and Arduino. The
-      generator can create mazes at any position on the page with fully
-      customizable dimensions for rows, columns, and cell sizes.
-    thumbnail: >-
-      https://raw.githubusercontent.com/hackclub/blot/main/art/mazeGenerator-Evan/snapshots/mazeThumbnail.svg
-    githubURL: https://github.com/hackclub/blot/pull/230
+      Built a Discord Bot to track assignments and perform moderation for an
+      astronomy community. Had features to scrape, summarize news and make them
+      into Instagram slides and track editorial review processes etc.
+    thumbnail: /thumbnails/astr.png
     categories:
       - Programming
-  - date: May, 2024
-    name: Wordle Solver
-    tagline: >-
-      A scalable Swift-based solver that cracks any Wordle variant using ranked
-      word heuristics.
+    githubURL: https://github.com/Decrescent398/astrobot
+  - date: Aug  2025
+    name: NeuronDoom
+    tagline: The Human Brain Cell Computer Plays Doom
     description: >-
-      Curious about how efficiently a program could solve Wordle, I built a
-      solver as my first project in Swift to learn the language. It works with
-      all Wordle variants (including Absurdle) and supports longer word lengths.
-      The solver takes your game feedback, filters through a 333,000-word
-      dataset, and ranks possible answers by vowel diversity, letter repetition,
-      frequency, and usage weight. The result is a fast, data-driven tool that
-      quickly identifies the best next guess.
-    thumbnail: /thumbnails/1760284204583-webp.webp
-    githubURL: https://github.com/evan-gan/wordleSolver
+      Trained a Neural Net to run doom on the Cortical CL1 by mapping doom
+      signals to the CL1 pre-public access, for a Stanford hackathon
+    thumbnail: /thumbnails/doom.jpeg
     categories:
+      - Experience
       - Programming
-  - date: April-July, 2024
-    name: Off the Grid Communicator Circuit Board
-    tagline: >-
-      Built off the grid texting device for a hackathon on the Pacific Crest
-      Trail, without cell service
+  - date: Jul - Dec 2025
+    name: Noct
+    tagline: Astronomy colloquium series with leading researchers
     description: >-
-      I had an idea for building a texting device for a seven-day off-the-grid
-      hike. I enlisted a small team of friends from around the world excited by
-      the idea, and we worked on a circuit board and firmware project to bring
-      it to life. I learned how to design a circuit board for the first time
-      using EasyEDA, designed most of the board, and optimized it for
-      long-lasting battery life so it could run for eight days of constant use.
-      I also designed it for far range communications allowing it to communicate
-      over a mile without cell towers or any external infrastructure. We had it
-      manufactured in China and distributed about 20 units for the other hikers
-      in our group to use during the hike. I also programmed the board from
-      scratch and gained hands-on experience soldering while assembling the
-      components. Throughout the project, I collaborated closely with my friends
-      on both the design and software, learning a great deal about electronics
-      and teamwork.
-    thumbnail: /thumbnails/1760206485488-webp.webp
-    githubURL: https://github.com/evan-gan/trail-PCB-communication-network
+      Hosted an astronomy colloquium series with leading researchers from MIT,
+      Harvard, LIGO, University of Edinburgh etc. Learnt a ton from them and had
+      100+ participants.
+    thumbnail: /thumbnails/noct.png
     categories:
-      - Builds
-    videoURL: https://www.youtube.com/watch?v=ufMUJ9D1fi8
-  - date: Mar 1-2, 2024
-    name: Distractatime
-    tagline: >-
-      Built an anti-productivity Mac app for the "useless project" prompt at a
-      12-hour hackathon.
+      - Experience
+    websiteURL: https://noctspace.netlify.app/
+  - date: Jul - Nov 2025
+    name: Algoverse
+    tagline: Detecting Ghost Variants in Influenza with Diffusion and PLMs
     description: >-
-      For the Scrapyard Flagship Hackathon, we were prompted to make a useless
-      project. What better than an anti-productivity app to fulfill this
-      objective.
-
-
-      Using SwiftUI, we developed a MacOS application which tracks the amount of
-      time you spend coding, and deploys various distractions to prevent you
-      from being productive.
-
-
-      If you try to code for an excessive amount of time, productivity
-      countermeasures such as repeatedly changing the font in VSCode to fonts
-      like Wingdings will be deployed. However, if the user continues to attempt
-      to code, further distractions will be implemented, such as opening
-      #confessions (a channel on the Hack Club Slack notorious for being a
-      distraction) and playing Subway Surfers with very loud volume. As a last
-      resort, siren noises will play, annoying windows will spawn and move
-      across the screen, with a loud balloon popping as a final deterrent. What
-      a practical solution to an impractical problem!
-    thumbnail: /thumbnails/scrapyardFlagship-webp.webp
-    githubURL: https://github.com/evan-gan/distractatime
+      Researched Virus Evolution prediction at Algoverse, got funded by
+      Lambda.ai
+    thumbnail: /thumbnails/alg.png
     categories:
+      - Experience
       - Programming
-  - date: Sep 2022 - June 2026
-    name: The LigerBots
-    tagline: >-
-      The LigerBots - First robotics team 2877 for Newton North and South High
-      Schools. Newton MA
-    description: >-
-      Freshman year, I joined my high school's 60 person robotics team, the
-      LigerBots, which competes among 3,500 teams worldwide in FIRST Robotics.
-      Over my four years on the team, I’ve become a jack of all trades,
-      programming the robot, leading build and prototyping groups to design and
-      construct mechanisms, and creating CAD models for robot components. As a
-      senior, I was appointed Chief Operating Officer (COO), overseeing team
-      operations and logistics. During my time with the LigerBots, we progressed
-      from qualifying for the District Championship to competing at the World
-      Championship, ultimately winning our division at Worlds in 2025. In 2024,
-      at the Greater Boston District qualifier, we won the FIRST Impact Award,
-      the most prestigious award in FIRST. In my junior year, I was awarded my
-      team's Gracious Professionalism Award.
-    thumbnail: /thumbnails/1760310168343-webp.webp
-    categories:
-      - Robotics
+      - Research
       - Highlights
-    websiteURL: ligerbots.org
-  - date: Oct 5, 2021
-    name: Little Free Library
-    tagline: Designed and built a Little Free Library from scratch in Tinker CAD
+    websiteURL: https://algoverseairesearch.org/
+    githubURL: https://github.com/Decrescent398/phylo-diffusion
+  - date: Jul  2025
+    name: Scoutout
+    tagline: Off-market house prediction system for Scoutout (YC W26)
     description: >-
-      I designed a Little Free Library from scratch using TinkerCAD, the first
-      CAD software I learned. After completing the design, I gathered materials
-      and taught myself to use power tools such as a table saw, drill, and
-      pneumatic nail gun to build it. Wanting to do the job right, I reached out
-      to people in my community and found some who had recently re-roofed their
-      houses and were willing to share leftover shingles and tar mat. I
-      purchased some drip edge from Home Depot and constructed the roof just
-      like a real house. For the front, I wanted a full-sized window, so I built
-      a custom frame with slots and repurposed an acrylic face shield to create
-      a large, clear window. Several years later, it still stands strong, having
-      endured many wind and snow storms.
-
-
-      Neighbors still stop by everyday to pick up or drop off books!
-    thumbnail: /thumbnails/1759675385330-webp.webp
+      Built an off-market house prediction system with Open Street Maps and
+      Linear Regression as an intern for Scoutout (YC W26)
+    thumbnail: /thumbnails/sctot.png
+    categories:
+      - Internship
+      - Programming
+    githubURL: https://github.com/Decrescent398/scoutout-off-market
+    websiteURL: https://www.ycombinator.com/companies/scout-out
+  - date: Jul  2025
+    name: Zoneout
+    tagline: Time Conversion Slack Bot
+    description: >-
+      Built a Slack bot to ensure synchronous time conversion across time zones
+      through ephemeral messages, got over 10k users
+    thumbnail: /thumbnails/znout.png
+    categories:
+      - Programming
+    githubURL: https://github.com/Decrescent398/zoneout
+  - date: Jul  2025
+    name: Stanford iGEM Bioengineering Research Program
+    tagline: Research on Virus Mutation Prediction
+    description: >-
+      Learnt a lot of synthetic biology and developed a Deep Mutational Scan
+      based model to predict new virus variants.
+    thumbnail: /thumbnails/sigem.png
+    categories:
+      - Research
+      - Experience
+      - Programming
+    websiteURL: https://igem.stanford.edu/education
+  - date: Jun - Jul 2025
+    name: Harvard Ventures TECH Summer Program
+    tagline: Summer Program
+    description: >-
+      Accepted with a $2000 scholarship, met some really cool people and learnt
+      a lot about entrepreneurship
+    thumbnail: /thumbnails/hvtsp.jpeg
+    categories:
+      - Experience
+    websiteURL: https://www.vtsp.com/
+  - date: Apr  2025
+    name: Galaxy Pixelate
+    tagline: Pixelates pictures of Galaxies
+    description: Pinterest inspired project built with pillow in one afternoon
+    thumbnail: /thumbnails/pix.jpeg
+    categories:
+      - Programming
+  - date: Mar  2025
+    name: Ping Pong Cannon
+    tagline: Built a ping pong cannon
+    description: >-
+      Built a ping pong cannon with a pringles can, hardwired drone controller
+      and some arduino.
+    thumbnail: /thumbnails/ping.jpeg
     categories:
       - Builds
+  - date: Mar - Jun 2025
+    name: Mulaicoding CS10
+    tagline: First year Computer Science at MIT and Stanford
+    description: >-
+      Algorithm Paradigms, Program Complexity, and Abstractions from MIT 6.100L,
+      Harvard CS51, Stanford CS106A + tests from Berkeley CS61A. Placed in top
+      19%.
+    thumbnail: /thumbnails/mulai.jpeg
+    categories:
+      - Experience
+    websiteURL: https://mulaicoding.com/
+  - date: Aug  2023
+    name: Piezoelectricity
+    tagline: Used Piezo-plates to light up a bulb
+    description: >-
+      Co-developed a Piezoelectric system and presented applications of
+      piezoelectric technology.
+    thumbnail: /thumbnails/piezo.png
+    categories:
+      - Builds
+  - date: Nov  2022
+    name: Unilever
+    tagline: Presented a sustainibility focused economic model
+    description: >-
+      Developed a sustainability focused economic model proposing refill
+      dispensing stations for consumer goods in high density residential
+      complexes to reduce last mile emissions and single-use plastic waste.
+      Presented the concept to Unilever’s Global R&D Head, who shared that
+      similar distribution models were being explored in international markets.
+    thumbnail: /thumbnails/unilever.png
+    categories:
+      - Experience
+  - date: Sep - Nov 2021
+    name: Kibi Sports
+    tagline: Built a file management system in python
+    description: >-
+      My first coding internship as a middle schooler, built a pretty solid
+      project and got recognized for professional approach and creativity + a
+      LOR
+    thumbnail: /thumbnails/filex.png
+    categories:
+      - Internship
+  - date: 'Sep 2021 '
+    name: Rotary
+    tagline: Volunteered to provide school materials to children in need.
+    description: >-
+      As a Club Director at Rotary International, I led a team volunteers to
+      execute impactful community service projects. One of the highlights of
+      this was organizing and leading a donation drive for underprivileged
+      children.
+    thumbnail: /thumbnails/books.png
+    categories:
+      - Volunteering

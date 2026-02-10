@@ -14,7 +14,7 @@
 
 {#if !page.url.pathname.startsWith('/editor')}
 <header class="site-header">
-	<a href="/" class="site-logo">Evan Gan</a>
+	<a href="/" class="site-logo">Ganesh</a>
 </header>
 {/if}
 
