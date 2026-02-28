@@ -196,3 +196,14 @@ projects:
     thumbnail: /thumbnails/books.png
     categories:
       - Volunteering
+  - date: Sep  2020
+    name: Plains Platformer
+    tagline: Plains 2 a mobile friendly platformer on scratch
+    description: >-
+      such a cool experience, got 6k views and #11 on trending games for a week.
+      A bunch of other scratch projects of mine got a total of 8k views, and
+      over 600 likes and stars lol
+    thumbnail: /thumbnails/scratch.png
+    categories:
+      - Programming
+    websiteURL: https://scratch.mit.edu/projects/563842303/
